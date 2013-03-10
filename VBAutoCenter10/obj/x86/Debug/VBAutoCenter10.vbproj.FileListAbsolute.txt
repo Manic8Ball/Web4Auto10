@@ -1,0 +1,14 @@
+C:\Users\Steven\Desktop\VBAutoCenter10\VBAutoCenter10\bin\Debug\VBAuto.mdf
+C:\Users\Steven\Desktop\VBAutoCenter10\VBAutoCenter10\bin\Debug\VBAuto_log.ldf
+C:\Users\Steven\Desktop\VBAutoCenter10\VBAutoCenter10\bin\Debug\VBAutoCenter10.exe.config
+C:\Users\Steven\Desktop\VBAutoCenter10\VBAutoCenter10\bin\Debug\VBAutoCenter10.exe
+C:\Users\Steven\Desktop\VBAutoCenter10\VBAutoCenter10\bin\Debug\VBAutoCenter10.pdb
+C:\Users\Steven\Desktop\VBAutoCenter10\VBAutoCenter10\bin\Debug\VBAutoCenter10.xml
+C:\Users\Steven\Desktop\VBAutoCenter10\VBAutoCenter10\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Steven\Desktop\VBAutoCenter10\VBAutoCenter10\obj\x86\Debug\VBAutoCenter10.Form1.resources
+C:\Users\Steven\Desktop\VBAutoCenter10\VBAutoCenter10\obj\x86\Debug\VBAutoCenter10.Resources.resources
+C:\Users\Steven\Desktop\VBAutoCenter10\VBAutoCenter10\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Steven\Desktop\VBAutoCenter10\VBAutoCenter10\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Steven\Desktop\VBAutoCenter10\VBAutoCenter10\obj\x86\Debug\VBAutoCenter10.exe
+C:\Users\Steven\Desktop\VBAutoCenter10\VBAutoCenter10\obj\x86\Debug\VBAutoCenter10.xml
+C:\Users\Steven\Desktop\VBAutoCenter10\VBAutoCenter10\obj\x86\Debug\VBAutoCenter10.pdb
