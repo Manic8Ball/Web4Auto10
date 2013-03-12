@@ -39,6 +39,7 @@ Partial Class Form1
         Me.VehicleTableAdapter1 = New VBAutoCenter10.VBAutoDataSet1TableAdapters.VehicleTableAdapter()
         Me.FillBy1ToolStrip = New System.Windows.Forms.ToolStrip()
         Me.FillBy1ToolStripButton = New System.Windows.Forms.ToolStripButton()
+        Me.Label1 = New System.Windows.Forms.Label()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.VehicleBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.VBAutoDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -53,7 +54,7 @@ Partial Class Form1
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.InventoryIDDataGridViewTextBoxColumn, Me.ManufacturerDataGridViewTextBoxColumn, Me.ModelNameDataGridViewTextBoxColumn, Me.YearDataGridViewTextBoxColumn, Me.VehicleIDDataGridViewTextBoxColumn, Me.CostValueDataGridViewTextBoxColumn})
         Me.DataGridView1.DataSource = Me.VehicleBindingSource
-        Me.DataGridView1.Location = New System.Drawing.Point(22, 97)
+        Me.DataGridView1.Location = New System.Drawing.Point(26, 60)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.Size = New System.Drawing.Size(644, 116)
         Me.DataGridView1.TabIndex = 0
@@ -113,7 +114,7 @@ Partial Class Form1
         Me.ComboBox1.DataSource = Me.VehicleBindingSource
         Me.ComboBox1.DisplayMember = "InventoryID"
         Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(212, 49)
+        Me.ComboBox1.Location = New System.Drawing.Point(188, 22)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(121, 21)
         Me.ComboBox1.TabIndex = 1
@@ -149,11 +150,21 @@ Partial Class Form1
         Me.FillBy1ToolStripButton.Size = New System.Drawing.Size(23, 22)
         Me.FillBy1ToolStripButton.Text = "    "
         '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(100, 25)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(65, 13)
+        Me.Label1.TabIndex = 3
+        Me.Label1.Text = "Inventory ID"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(717, 231)
+        Me.ClientSize = New System.Drawing.Size(717, 199)
+        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.FillBy1ToolStrip)
         Me.Controls.Add(Me.ComboBox1)
         Me.Controls.Add(Me.DataGridView1)
@@ -186,5 +197,6 @@ Partial Class Form1
     Friend WithEvents VehicleTableAdapter1 As VBAutoCenter10.VBAutoDataSet1TableAdapters.VehicleTableAdapter
     Friend WithEvents FillBy1ToolStrip As System.Windows.Forms.ToolStrip
     Friend WithEvents FillBy1ToolStripButton As System.Windows.Forms.ToolStripButton
+    Friend WithEvents Label1 As System.Windows.Forms.Label
 
 End Class
